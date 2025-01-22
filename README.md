@@ -1,4 +1,4 @@
-# grocery_store_admin_panel
+# GroMart Admin
 
 Web base admin panel
 
