@@ -2,5 +2,5 @@
 
 Web base admin panel
  
-## Project Details
+## Project Details 
  
