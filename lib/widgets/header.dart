@@ -30,10 +30,10 @@ class Header extends StatelessWidget {
             padding: const EdgeInsets.all(8.0),
             child: Text(
               "Dashboard",
-              style: Theme.of(context).textTheme.titleLarge,
+              style: Theme.of(context).textTheme.titleLarge, 
             ),
           ),
-        if (Responsive.isDesktop(context))
+        if (Responsive.isDesktop(context)) 
           Spacer(flex: Responsive.isDesktop(context) ? 2 : 1),
         Expanded(
           child: TextField(
@@ -57,7 +57,7 @@ class Header extends StatelessWidget {
                   ),
                   child: const Icon(
                     Icons.search,
-                    size: 25,
+                    size: 25, 
                   ),
                 ),
               ),

@@ -8,9 +8,9 @@ import '../responsive.dart';
 class ButtonsWidget extends StatelessWidget {
   const ButtonsWidget({
     Key? key,
-    required this.onPressed,
+    required this.onPressed, 
     required this.text,
-    required this.icon,
+    required this.icon, 
     required this.backgroundColor,
   }) : super(key: key);
   final VoidCallback onPressed;
