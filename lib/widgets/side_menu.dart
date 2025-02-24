@@ -43,16 +43,16 @@ class _SideMenuState extends State<SideMenu> {
             icon: Icons.home_filled,
           ),
           DrawerListTile(
-            title: "View all product",
+            title: "View all product", 
             press: () {
              
             },
             icon: Icons.store,
           ),
           DrawerListTile(
-            title: "View all order",
+            title: "View all order", 
             press: () {},
-            icon: IconlyBold.bag_2,
+            icon: IconlyBold.bag_2, 
           ),
           SwitchListTile(
               title: const Text('Theme'),
