@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:grocery_store_admin_panel/consts/constants.dart';
 import 'package:grocery_store_admin_panel/widgets/header.dart';
 import 'package:provider/provider.dart';
-
 import '../controllers/MenuController.dart' as custom_menu_controller;
 
 class DashboardScreen extends StatelessWidget {
@@ -18,13 +17,13 @@ class DashboardScreen extends StatelessWidget {
             Header(
               fct: () { 
                 context.read<custom_menu_controller.MenuController>().controlDashboarkMenu();
-              },
+              }, 
             ),
             const SizedBox(height: defaultPadding),
             Row(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Expanded(
+                Expanded( 
                   flex: 5,
                   child: Column(
                     children: const [

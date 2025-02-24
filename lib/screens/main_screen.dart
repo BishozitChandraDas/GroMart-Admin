@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:grocery_store_admin_panel/controllers/MenuController.dart' as custom_menu_controller;
 import 'package:grocery_store_admin_panel/widgets/side_menu.dart';
 import 'package:provider/provider.dart';
-
 import '../responsive.dart';
 import 'dashboard_screen.dart';
 
@@ -14,7 +13,7 @@ class MainScreen extends StatelessWidget {
     return Scaffold(
       key: context.read<custom_menu_controller.MenuController>().getScaffoldKey,
       drawer: const SideMenu(),
-      body: SafeArea(
+      body: SafeArea( 
         child: Row(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [

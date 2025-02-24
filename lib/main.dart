@@ -17,9 +17,9 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  DarkThemeProvider themeChangeProvider = DarkThemeProvider();
+  DarkThemeProvider themeChangeProvider = DarkThemeProvider(); 
 
-  void getCurrentAppTheme() async {
+  void getCurrentAppTheme() async { 
     themeChangeProvider.setDarkTheme =
         await themeChangeProvider.darkThemePreference.getTheme();
   }
@@ -39,7 +39,7 @@ class _MyAppState extends State<MyApp> {
         ),
         ChangeNotifierProvider(
           create: (_) {
-            return themeChangeProvider;
+            return themeChangeProvider; 
           },
         ),
       ],
