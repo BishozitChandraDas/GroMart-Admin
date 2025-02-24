@@ -38,11 +38,11 @@ class Header extends StatelessWidget {
         Expanded(
           child: TextField(
             decoration: InputDecoration(
-              hintText: "Search",
+              hintText: "Search", 
               fillColor: Theme.of(context).cardColor,
-              filled: true,
+              filled: true, 
               border: const OutlineInputBorder(
-                borderSide: BorderSide.none,
+                borderSide: BorderSide.none, 
                 borderRadius: BorderRadius.all(Radius.circular(10)),
               ),
               suffixIcon: InkWell(
@@ -51,7 +51,7 @@ class Header extends StatelessWidget {
                   padding: const EdgeInsets.all(defaultPadding * 0.75),
                   margin: const EdgeInsets.symmetric(
                       horizontal: defaultPadding / 2),
-                  decoration: const BoxDecoration(
+                  decoration: const BoxDecoration( 
                     color: Colors.blue,
                     borderRadius: BorderRadius.all(Radius.circular(10)),
                   ),
