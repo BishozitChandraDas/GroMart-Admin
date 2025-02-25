@@ -14,9 +14,9 @@ class MainScreen extends StatelessWidget {
       key: context.read<custom_menu_controller.MenuController>().getScaffoldKey,
       drawer: const SideMenu(),
       body: SafeArea( 
-        child: Row( 
+        child: Row(  
           crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
+          children: [ 
             // We want this side menu only for large screen
             if (Responsive.isDesktop(context))
               const Expanded(
@@ -24,7 +24,7 @@ class MainScreen extends StatelessWidget {
                 // and it takes 1/6 part of the screen
                 child: SideMenu(),
               ),
-            const Expanded(
+            const Expanded( 
               // It takes 5/6 part of the screen
               flex: 5,
               child: DashboardScreen(),
