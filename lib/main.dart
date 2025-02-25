@@ -20,14 +20,14 @@ class _MyAppState extends State<MyApp> {
   DarkThemeProvider themeChangeProvider = DarkThemeProvider(); 
 
   void getCurrentAppTheme() async { 
-    themeChangeProvider.setDarkTheme =
+    themeChangeProvider.setDarkTheme = 
         await themeChangeProvider.darkThemePreference.getTheme();
   }
 
   @override
-  void initState() {
-    getCurrentAppTheme();
-    super.initState();
+  void initState() { 
+    getCurrentAppTheme(); 
+    super.initState(); 
   }
 
   @override
