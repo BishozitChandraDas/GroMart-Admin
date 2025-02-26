@@ -12,15 +12,15 @@ class ButtonsWidget extends StatelessWidget {
   }) : super(key: key);
   final VoidCallback onPressed;
   final String text;
-  final IconData icon;
+  final IconData icon; 
   final Color backgroundColor;
   @override
   Widget build(BuildContext context) {
     return ElevatedButton.icon(
-      style: TextButton.styleFrom(
+      style: TextButton.styleFrom( 
         backgroundColor: backgroundColor,
         padding: EdgeInsets.symmetric(
-          horizontal: defaultPadding * 1.5,
+          horizontal: defaultPadding * 1.5,  
           vertical: defaultPadding / (Responsive.isDesktop(context) ? 1 : 2),
         ),
       ),
