@@ -18,8 +18,8 @@ class MainScreen extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [ 
             // We want this side menu only for large screen
-            if (Responsive.isDesktop(context)) 
-              const Expanded( 
+            if (Responsive.isDesktop(context))
+              const Expanded(
                 // default flex = 1
                 // and it takes 1/6 part of the screen
                 child: SideMenu(),
