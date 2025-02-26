@@ -15,7 +15,7 @@ class MenuController extends ChangeNotifier {
     if (!_scaffoldKey.currentState!.isDrawerOpen) { 
       _scaffoldKey.currentState!.openDrawer();
     }
-  }
+  } 
 
   void controlProductsMenu() {  
     if (!_gridScaffoldKey.currentState!.isDrawerOpen) { 
