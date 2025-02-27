@@ -3,10 +3,10 @@ import 'package:grocery_store_admin_panel/consts/constants.dart';
 import '../responsive.dart';
 
 class ButtonsWidget extends StatelessWidget {
-  const ButtonsWidget({
+  const ButtonsWidget({ 
     Key? key,
-    required this.onPressed,
-    required this.text,
+    required this.onPressed, 
+    required this.text, 
     required this.icon,
     required this.backgroundColor,
   }) : super(key: key);

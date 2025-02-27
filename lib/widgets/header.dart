@@ -6,9 +6,9 @@ import '../responsive.dart';
 
 class Header extends StatelessWidget {
   const Header({
-    Key? key,
+    Key? key, 
     required this.fct,
-  }) : super(key: key);
+  }) : super(key: key); 
 
   final Function fct;
   @override
