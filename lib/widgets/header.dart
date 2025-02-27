@@ -6,7 +6,7 @@ import '../responsive.dart';
 
 class Header extends StatelessWidget {
   const Header({
-    Key? key, 
+    Key? key,
     required this.fct,
   }) : super(key: key); 
 
@@ -17,12 +17,12 @@ class Header extends StatelessWidget {
     final color = Utils(context).color;
 
     return Row(
-      children: [
-        if (!Responsive.isDesktop(context))
-          IconButton(
-            icon: const Icon(Icons.menu),
+      children: [ 
+        if (!Responsive.isDesktop(context)) 
+          IconButton( 
+            icon: const Icon(Icons.menu), 
             onPressed: () {
-              fct();
+              fct(); 
             },
           ),
         if (Responsive.isDesktop(context))

@@ -10,7 +10,7 @@ class ButtonsWidget extends StatelessWidget {
     required this.icon,
     required this.backgroundColor,
   }) : super(key: key);
-  final VoidCallback onPressed;
+  final VoidCallback onPressed; 
   final String text;
   final IconData icon;
   final Color backgroundColor;
