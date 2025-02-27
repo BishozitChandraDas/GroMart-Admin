@@ -37,7 +37,7 @@ class Header extends StatelessWidget {
           Spacer(flex: Responsive.isDesktop(context) ? 2 : 1),
         Expanded(
           child: TextField(
-            decoration: InputDecoration(
+            decoration: InputDecoration( 
               hintText: "Search", 
               fillColor: Theme.of(context).cardColor,
               filled: true, 

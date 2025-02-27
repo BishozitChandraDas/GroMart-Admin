@@ -19,7 +19,7 @@ class ButtonsWidget extends StatelessWidget {
     return ElevatedButton.icon(
       style: TextButton.styleFrom(
         backgroundColor: backgroundColor,
-        padding: EdgeInsets.symmetric(
+        padding: EdgeInsets.symmetric( 
           horizontal: defaultPadding * 1.5,
           vertical: defaultPadding / (Responsive.isDesktop(context) ? 1 : 2),
         ),

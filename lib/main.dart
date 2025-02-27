@@ -39,7 +39,7 @@ class _MyAppState extends State<MyApp> {
         ),
         ChangeNotifierProvider(
           create: (_) {
-            return themeChangeProvider; 
+            return themeChangeProvider;  
           },
         ),
       ],

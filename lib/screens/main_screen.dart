@@ -15,7 +15,7 @@ class MainScreen extends StatelessWidget {
       drawer: const SideMenu(),
       body: SafeArea( 
         child: Row(  
-          crossAxisAlignment: CrossAxisAlignment.start, 
+          crossAxisAlignment: CrossAxisAlignment.start,  
           children: [  
             // We want this side menu only for large screen
             if (Responsive.isDesktop(context))
