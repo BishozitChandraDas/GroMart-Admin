@@ -26,7 +26,7 @@ class ButtonsWidget extends StatelessWidget {
       ),
       onPressed: () {
         onPressed();
-      }, 
+      },
       icon: Icon(icon, size: 20,),
       label: Text(text),
     );
