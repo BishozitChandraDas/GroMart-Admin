@@ -9,12 +9,12 @@ class DashboardScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SafeArea(   
+    return SafeArea(  
       child: SingleChildScrollView( 
         padding: const EdgeInsets.all(defaultPadding), 
         child: Column(  
           children: [  
-            Header(   
+            Header(    
               fct: () {
                 context.read<custom_menu_controller.MenuController>().controlDashboarkMenu();
               },
