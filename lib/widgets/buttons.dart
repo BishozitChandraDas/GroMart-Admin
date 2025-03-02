@@ -20,13 +20,13 @@ class ButtonsWidget extends StatelessWidget {
       style: TextButton.styleFrom(
         backgroundColor: backgroundColor,
         padding: EdgeInsets.symmetric( 
-          horizontal: defaultPadding * 1.5, 
+          horizontal: defaultPadding * 1.5,
           vertical: defaultPadding / (Responsive.isDesktop(context) ? 1 : 2),
         ),
       ),
       onPressed: () {
         onPressed();
-      },
+      }, 
       icon: Icon(icon, size: 20,),
       label: Text(text),
     );

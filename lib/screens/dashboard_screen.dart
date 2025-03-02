@@ -10,11 +10,11 @@ class DashboardScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SafeArea(  
-      child: SingleChildScrollView( 
+      child: SingleChildScrollView(  
         padding: const EdgeInsets.all(defaultPadding), 
         child: Column(  
           children: [  
-            Header(    
+            Header(   
               fct: () {
                 context.read<custom_menu_controller.MenuController>().controlDashboarkMenu();
               },
@@ -26,7 +26,7 @@ class DashboardScreen extends StatelessWidget {
                 Expanded( 
                   flex: 5,
                   child: Column(
-                    children: const [
+                    children: const [ 
                       // MyProductsHome(),
                       // SizedBox(height: defaultPadding),
                       // OrdersScreen(),
