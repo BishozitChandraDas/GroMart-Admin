@@ -9,8 +9,8 @@ class MainScreen extends StatelessWidget {
   const MainScreen({Key? key}) : super(key: key);
 
   @override
-  Widget build(BuildContext context) { 
-    return Scaffold(
+  Widget build(BuildContext context) {
+    return Scaffold( 
       key: context.read<custom_menu_controller.MenuController>().getScaffoldKey, 
       drawer: const SideMenu(),
       body: SafeArea( 
