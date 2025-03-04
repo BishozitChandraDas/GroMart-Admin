@@ -17,7 +17,7 @@ class ButtonsWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ElevatedButton.icon(
-      style: TextButton.styleFrom(
+      style: TextButton.styleFrom( 
         backgroundColor: backgroundColor,
         padding: EdgeInsets.symmetric( 
           horizontal: defaultPadding * 1.5,
